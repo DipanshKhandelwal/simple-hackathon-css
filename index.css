@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  font-family: 'Roboto';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 20px;
+}
+
+.large-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.inside-container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.thirty {
+  font-size: 220px;
+  color: #007ffa;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 40px;
+}
+
+.hours {
+  font-size: 70px;
+  position: relative;
+  top: 0px;
+}
+
+.of {
+  font-size: 70px;
+  position: relative;
+  top: -11px;
+}
